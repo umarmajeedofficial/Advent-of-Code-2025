@@ -13,7 +13,7 @@ def max_two_digit_from_line(s: str) -> int:
     return best
 def main():
     total = 0
-    with open("Day 3/day3_input.txt", "r") as f:
+    with open("input.txt", "r") as f:
         for raw in f:
             line = raw.strip()
             if not line:
